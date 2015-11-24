@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	    /*画左右两条边*/
+	    .mid {
+	    	height: 50px;
+	      border-left: 1px solid #000;
+	    	border-right: 1px solid #000;
+	    	background-color: #fff;
+	    }
+	    .btop {
+	    	display: block;
+	    	background-color: #fff;
+	    }
+	    .btop div {
+	    	display: block;
+	    	overflow: hidden;
+	    	height: 1px;
+	    }
+	    /*画上下两条边*/
+	    .b1 {
+	      margin: 0 3px;
+	    	background-color: #000;
+	    }
+	    .b2 {
+	    	border-left: 1px solid #000;
+	    	border-right: 1px solid #000;
+	    	margin: 0 2px;
+	    }
+	    .b3 {
+	    	border-left: 1px solid #000;
+	    	border-right: 1px solid #000;
+	    	margin: 0 1px;
+	    }
+	    .b4 {
+	    	border-left: 1px solid #000;
+	    	border-right: 1px solid #000;
+	    	margin:0 1px;
+	    	height: 1px;
+	    }
+	</style>
+</head>
+<body>
+	<div class="btop">
+		<div class="b1"></div>
+		<div class="b2"></div>
+		<div class="b3"></div>
+		<div class="b4"></div>
+	</div>
+	<div class="mid"></div>
+	<div class="btop">
+		<div class="b4"></div>
+		<div class="b3"></div>
+		<div class="b2"></div>
+		<div class="b1"></div>
+	</div>
+</body>
+</html>
