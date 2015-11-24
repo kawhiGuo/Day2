@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task0004</title>
+	<style type="text/css">
+		.a1 {
+			float: left;
+			width: 190px;
+			height:50px;
+			background: red;	
+		}
+		.a2 {
+			float: right;
+			width: 190px;
+			height: 50px;
+			background: yellow;	
+		}
+		.a3 {
+			margin:0 190px;
+			height: 50px;
+			background: blue;
+		}
+        .parents {
+        	padding:0 190px;
+        }
+        .r1 {
+        	float: left;
+        	width: 100%;
+        	height:50px;
+        	background: blue;
+        }
+        .r2 {
+        	float: left;
+        	width:190px;
+        	height: 50px;
+        	background: red;
+        	margin-left: -100%;
+        	position: relative;
+        	left: -190px;
+        	
+        }
+        .r3 {
+        	float: left;
+        	width: 190px;
+        	height: 50px;
+        	background: yellow;
+        	margin-left: -190px;
+        	position: relative;
+        	right: -190px;
+        }
+    </style>
+</head>
+<body>
+	    <p>The ways of float</p>
+		<div class="a1"></div>
+		<div class="a2"></div>
+		<div class="a3"></div>
+
+		<p>The ways of margin</p>
+		<div class="parents">
+			<div class="r1"></div>
+			<div class="r2"></div>
+			<div class="r3"></div>
+	    </div>
+</body>
+</html>
